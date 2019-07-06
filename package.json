@@ -1,0 +1,19 @@
+{
+  "name": "onder",
+  "version": "1.0.0",
+  "description": "onder project backend server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js --port=3001"
+  },
+  "author": "timac11",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-promise-router": "^3.0.3",
+    "method-override": "^3.0.0",
+    "optimist": "^0.6.1",
+    "pg": "^7.11.0"
+  }
+}
